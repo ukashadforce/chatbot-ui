@@ -16,7 +16,7 @@ interface ChatbotUIContext {
   // PROFILE STORE
   profile: Tables<"profiles"> | null
   setProfile: Dispatch<SetStateAction<Tables<"profiles"> | null>>
-
+import { AssistantImage } from "@/types/images/assistant-image"
   // ITEMS STORE
   assistants: Tables<"assistants">[]
   setAssistants: Dispatch<SetStateAction<Tables<"assistants">[]>>
